@@ -10,6 +10,10 @@ class HomePage(QWidget):
         self.layout = QVBoxLayout()
         self.setLayout(self.layout)
 
+        self.btn_go_to_config_library = QPushButton("Config Library")
+        self.layout.addWidget(self.btn_go_to_config_library)
+        self.btn_go_to_config_library.clicked.connect(self.controller.go_to_config_library_page)
+
         self.label = QLabel("Welcome to Book Manager!")
         self.layout.addWidget(self.label)
 

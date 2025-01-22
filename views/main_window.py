@@ -17,9 +17,4 @@ class MainWindow(QMainWindow):
         self.main_stack = QStackedWidget()
         self.layout.addWidget(self.main_stack)
 
-    def add_page(self, page):
-        self.main_stack.addWidget(page)
 
-    def go_to_page(self, index):
-        self.main_stack.setCurrentIndex(index)
-        

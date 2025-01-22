@@ -5,4 +5,6 @@ class HomeController:
         self.main_controller = main_controller
         #self.model = 
         self.view = HomePage(self)
-        
+
+    def go_to_config_library_page(self):
+        self.main_controller.go_to_config_library_page()
