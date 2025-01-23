@@ -1,0 +1,25 @@
+PDF - metadata example
+
+
+{
+'format': 'PDF 1.4',
+    'title': 
+        'Gerenciamento de Projetos: O Processo Gerencial - 6ª Edição',
+    'author': 
+        'Erik W. Larson', 
+    'subject': 
+        'Nova edição do livro-texto sobre gerenciamento de projetos, cujo ponto forte reside no fato de unir à abordagem dos aspectos técnicos e processuais a dimensão humana.  ', 
+    'keywords': 
+        'projetos,seleção de projetos,estratégia da empresa,estimativa de tempo,estimativa de custos,plano do projeto,cronograma de recursos,cronograma de custos,gerenciamento de riscos,liderança,terceirização,equipes de projeto,gerenciamento ágil de projetos,supervisão',
+    'creator': 
+        'Adobe InDesign CS6 (Windows)',
+    'producer': 
+        'Adobe PDF Library 10.0.1',
+    'creationDate': 
+        "D:20160406154617-03'00'",
+    'modDate': 
+        D:20160614052234Z', 
+    'trapped': 
+        '', 
+    'encryption': None
+}
