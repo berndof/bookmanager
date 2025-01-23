@@ -1,5 +1,7 @@
+import signal
 from PySide6.QtWidgets import QApplication
 from controllers.main_controller import MainController
+
 
 if __name__ == "__main__":
     app = QApplication([])
@@ -7,4 +9,4 @@ if __name__ == "__main__":
     controller = MainController(app)
     controller.show()
 
-    app.exec()
+    app.exec_()
